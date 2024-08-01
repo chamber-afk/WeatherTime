@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+struct FlagData: Codable {
+    let flags: [String: String]
+}
+
+
+
+
+
